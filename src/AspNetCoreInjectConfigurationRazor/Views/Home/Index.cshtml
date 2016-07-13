@@ -1,0 +1,15 @@
+﻿@using Microsoft.Extensions.Options;
+@using AspNetCoreInjectConfigurationRazor.Configuration;
+
+@inject IOptions<ApplicationConfigurations> OptionsApplicationConfiguration
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Injected properties direct from configuration file:</h2>
+<ol>
+    <li>@OptionsApplicationConfiguration.Value.ApplicationHostUrl</li>
+    <li>@OptionsApplicationConfiguration.Value.RestServiceTwo</li>
+</ol>
+
