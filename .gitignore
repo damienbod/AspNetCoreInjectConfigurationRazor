@@ -1,0 +1,5 @@
+src/AspNetCoreInjectConfigurationRazor/bin
+src/AspNetCoreInjectConfigurationRazor/obj
+.vs
+src/AspNetCoreInjectConfigurationRazor/AspNetCoreInjectConfigurationRazor.xproj.user
+src/AspNetCoreInjectConfigurationRazor/project.lock.json
