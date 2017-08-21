@@ -1,16 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26014.0
+VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0F6B001F-0403-463C-B5EC-99E97459203C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9C4CC0A1-F3C3-4BA4-98E8-CD7389F90BE3}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreInjectConfigurationRazor", "src\AspNetCoreInjectConfigurationRazor\AspNetCoreInjectConfigurationRazor.csproj", "{D3EC7C52-E139-4FDC-A46A-51C49A3ECAF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{42322D49-8793-4974-9B94-A7B2D1F799E7}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,5 +28,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D3EC7C52-E139-4FDC-A46A-51C49A3ECAF8} = {0F6B001F-0403-463C-B5EC-99E97459203C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE747381-0F9C-461C-AFD6-013372441B4D}
 	EndGlobalSection
 EndGlobal
