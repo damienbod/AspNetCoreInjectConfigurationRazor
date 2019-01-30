@@ -29,15 +29,12 @@ namespace AspNetCoreInjectConfigurationRazor
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<ApplicationConfigurations>(Configuration.GetSection("ApplicationConfigurations"));
-            services.AddMvc();
+            services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_2);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
-            loggerFactory.AddConsole(Configuration.GetSection("Logging"));
-            loggerFactory.AddDebug();
-
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
